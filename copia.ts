@@ -1,0 +1,25 @@
+export class copia {
+    private id:number = 0;
+    private estado:string = "";
+    constructor(id:number, estado:string) 
+    {
+        this.id = id;
+        this.estado = estado;
+    }
+
+    private get_id(): number {
+        return this.id;
+    }
+
+    private get_estado(): string {
+        return this.estado;
+    }
+
+    private set_id(id:number){
+        this.id = id;
+    }
+
+    private set_estado(estado:string){
+        this.estado = estado;
+    }
+}
